@@ -11,10 +11,6 @@
 </p>
 
 <p align="center">
-  <img src="assets/picking-up-object.png" alt="Robot picking up storage container" width="560">
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Course-MFET%20248-0B5CAD?style=for-the-badge" alt="Course badge">
   <img src="https://img.shields.io/badge/Robot-FANUC-FF8C00?style=for-the-badge" alt="Platform badge">
 </p>
@@ -257,18 +253,12 @@ The final sequence combined motion, I/O feedback, and user confirmation into a c
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/picking-up-object.png" alt="Robot picking up the object" width="100%">
-      <p><strong>3. Pick Object</strong></p>
-    </td>
-    <td align="center" width="50%">
       <img src="assets/object-placement.png" alt="Robot moving the object into position" width="100%">
-      <p><strong>4. Position Over Bin</strong></p>
+      <p><strong>4. Pick up object</strong></p>
     </td>
-  </tr>
-  <tr>
     <td align="center" colspan="2">
-      <img src="assets/object-placed-successfully.png" alt="Object placed successfully" width="50%">
-      <p><strong>5. Success!</strong></p>
+      <img src="assets/object-placed-successfully.png" alt="Object placed successfully" width="100%">
+      <p><strong>5. Place object in bin!</strong></p>
     </td>
   </tr>
 </table>
