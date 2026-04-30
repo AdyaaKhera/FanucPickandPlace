@@ -254,11 +254,11 @@ The final sequence combined motion, I/O feedback, and user confirmation into a c
   <tr>
     <td align="center" width="50%">
       <img src="assets/object-placement.png" alt="Robot moving the object into position" width="100%">
-      <p><strong>4. Pick up object</strong></p>
+      <p><strong>3. Pick up object</strong></p>
     </td>
     <td align="center" colspan="2">
       <img src="assets/object-placed-successfully.png" alt="Object placed successfully" width="100%">
-      <p><strong>5. Place object in bin!</strong></p>
+      <p><strong>4. Place object in bin!</strong></p>
     </td>
   </tr>
 </table>
