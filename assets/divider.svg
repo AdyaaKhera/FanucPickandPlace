@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 60" width="900" height="60">
+  <!-- Animated divider with robot/automation theme -->
+  <defs>
+    <style>
+      .divider-line { stroke: #FF8C00; stroke-width: 2; }
+      .divider-dot { fill: #FF8C00; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+      .pulse { animation: pulse 2s infinite; }
+    </style>
+  </defs>
+  
+  <!-- Left line -->
+  <line x1="0" y1="30" x2="350" y2="30" class="divider-line" />
+  
+  <!-- Center dots -->
+  <circle cx="420" cy="30" r="5" class="divider-dot" />
+  <circle cx="450" cy="30" r="5" class="divider-dot pulse" />
+  <circle cx="480" cy="30" r="5" class="divider-dot" />
+  
+  <!-- Right line -->
+  <line x1="550" y1="30" x2="900" y2="30" class="divider-line" />
+</svg>

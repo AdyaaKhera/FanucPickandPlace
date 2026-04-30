@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <style>
+      .banner-text { font-family: Arial, sans-serif; font-weight: bold; fill: white; }
+      .banner-title { font-size: 64px; }
+      .banner-subtitle { font-size: 28px; opacity: 0.9; }
+    </style>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C00;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#1F8A70;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Gradient background -->
+  <rect width="1200" height="300" fill="#0B5CAD" />
+  <rect width="1200" height="300" fill="url(#grad)" opacity="0.2" />
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="80" r="40" fill="#FF8C00" opacity="0.2" />
+  <circle cx="1050" cy="250" r="60" fill="#1F8A70" opacity="0.2" />
+  
+  <!-- Main text -->
+  <text x="600" y="120" text-anchor="middle" class="banner-text banner-title">Declutter Robot</text>
+  <text x="600" y="170" text-anchor="middle" class="banner-text banner-subtitle">FANUC Pick & Place Automation</text>
+  <text x="600" y="210" text-anchor="middle" class="banner-text" font-size="18" opacity="0.85">Custom End-of-Arm Tooling | Manual Release | I/O Control</text>
+  
+  <!-- Bottom accent line -->
+  <line x1="300" y1="250" x2="900" y2="250" stroke="#FF8C00" stroke-width="3" />
+</svg>

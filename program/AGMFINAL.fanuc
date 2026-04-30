@@ -1,0 +1,24 @@
+AGMFINAL
+
+1: CALL OPEN
+2: L PR[50] 100mm/sec FINE
+3: L PR[51] 100mm/sec FINE
+4: L P[1] 100mm/sec FINE
+5: RO[4] = ON
+6: DO[101] = ON
+7: WAIT 1.00 (sec)
+8: L P[2] 100mm/sec FINE
+9: L P[3] 100mm/sec FINE
+10: L P[6] 100mm/sec FINE
+11: CALL OPEN
+12: L P[9] 100mm/sec FINE
+13: L P[4] 100mm/sec FINE
+14: L P[5] 100mm/sec FINE
+15: RO[4] = ON
+16: DO[102] = ON
+17: L P[7] 100mm/sec FINE
+18: L P[8] 100mm/sec FINE
+19: WAIT 3.00 (sec)
+20: IF DI[102] = ON, CALL OPEN
+21: DI[102] = OFF
+22: DI[101] = OFF
